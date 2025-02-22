@@ -1,5 +1,15 @@
 # Base Idea
 
+A raspi is connected via USB to the microcontroller who does all the LED control stuff.
+The raspi creates a Wifi acces point. The remote buttons are automatically connecting to this network.
+Via these remote buttons an action of the pope will follow. Manly by giving a sound, but other 
+reaction are possible.
+
+Each TK member gets it's own button. Via a SMB network share each member can upload individual sounds, which are 
+randomly played if the remote button is pressed.
+
+The raspi is also hosting a webpage with additional informations and statistics.
+
 # Pope Hardware
 
 Required hardware to satisfy all requiested features.
@@ -10,7 +20,10 @@ Required hardware to satisfy all requiested features.
 * car mini amplifier
 * Speaker
 * Humidifier
-* 
+* NEO Pixel LED Background Light
+* Many Switches
+* Many LEDs
+* Stepper motor
 
 ## Feature list
 
@@ -23,5 +36,15 @@ Required hardware to satisfy all requiested features.
 There are 12 remote buttons. When a button got's pressed this will be sent wia wifi to the pope.
 Each button consists of
 * [ESP32](https://www.amazon.de/dp/B074RG86SR)
-* 1 LES
+* 1 LED
 * 1 Button
+
+
+# Software Features
+
+## Base System
+
+* SMB network share with individual folders for each user so that they can modify their sounds.
+* A reset possibility to reset a folder to the default sounds.
+* A web page.
+* 
