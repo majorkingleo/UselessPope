@@ -32,6 +32,7 @@ Required hardware to satisfy all requiested features.
 * Electric field detector via darlington transistor cascade
 * Microphone
 * Ethernet Plug
+* A LCD panel like the one I already have for the transport station. It can be used to count the rotations.
 
 ## Feature list
 
