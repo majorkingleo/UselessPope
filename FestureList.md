@@ -42,7 +42,7 @@ Required hardware to satisfy all requiested features:
 
 # Remote Buttons
 
-There are 12 remote buttons. When a button gets pressed, this will be sent wia wifi to the Pope.
+There are 12 remote buttons. When a button gets pressed, this will be sent via wifi to the Pope.
 
 Each button consists of
 * [ESP32](https://www.amazon.de/dp/B074RG86SR)
@@ -56,11 +56,13 @@ Each button consists of
 
 ## Base System
 
-* SMB network share with individual folders for each user so that they can modify their sounds.
-* A reset possibility to reset a folder to the default sounds.
-* A web page.
+* SMB network share with individual folders for each user so that they can modify their sounds
+* A reset possibility to reset a folder to the default sounds
+* A web page
 
 ## Web Page
+
+[Demo page](http://hoffer.cx/tkpapst/)
 
 ### Actions
 
