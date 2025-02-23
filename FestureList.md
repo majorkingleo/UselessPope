@@ -17,13 +17,21 @@ Required hardware to satisfy all requiested features.
 * Raspberry Pi 5
 * [A USB Soundcard](https://www.amazon.de/dp/B01N905VOY)
 * [NUCLEO-H743ZI](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html#st_all-features_sec-nav-tab)
-* car mini amplifier
+* car mini ammplifier
 * Speaker
 * Humidifier
 * NEO Pixel LED Background Light
 * Many Switches
 * Many LEDs
 * Stepper motor
+* AC/DC 5V power supply for the Microcontroller
+* AC/DC 5V USB power supply for the Raspi
+* 12V Power supply for the car mini amplifier
+* ? Power supply for the humidifier
+* Motion detector
+* Electric field detector via darlington transistor cascade
+* Microphone
+* Ethernet Plug
 
 ## Feature list
 
@@ -47,4 +55,24 @@ Each button consists of
 * SMB network share with individual folders for each user so that they can modify their sounds.
 * A reset possibility to reset a folder to the default sounds.
 * A web page.
-* 
+
+## Web Page
+
+* Number of rotations of the wheel.
+* List which sound was played most often, which user hit the button at most.
+
+## Database (MariaDB)
+This is the main interface.
+
+* Statistics for the WebPage
+* Controll commands for the micricontroller.
+* Controll commands from the buttons.
+* Controll commands to the buttons.
+* Controll commands from the WebPage.
+
+## Remote button controlled sounds
+
+The sounds can be transfered to the pope via smb share. 
+If a button is pressed a random sound of the users folder will be pressed.
+If multiple users pressed a button all sounds will be played at once.
+If a sound effect takes longer than 30 seconds it will be faded out.
