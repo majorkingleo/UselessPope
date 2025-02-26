@@ -6,5 +6,8 @@ So it's time to fix it up.
 
 This is the main repo where we collecting ideas as hardware descriptions.
 
-![The original Pope](media/useless_pope.mp4)
+Here is a video of the pope without the frame:
 
+https://github.com/user-attachments/assets/33bed3ab-1045-4a0c-8aef-5eb7153d2ef2
+
+You can see there is a rotating background glass, that creates the holy shine effect :-)
