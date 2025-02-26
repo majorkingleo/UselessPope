@@ -6,3 +6,5 @@ So it's time to fix it up.
 
 This is the main repo where we collecting ideas as hardware descriptions.
 
+![The original Pope](media/useless_pope.mp4)
+
