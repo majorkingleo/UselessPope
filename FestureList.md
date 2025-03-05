@@ -62,7 +62,7 @@ Each button consists of
 
 ## Web Page
 
-[Demo page](http://hoffer.cx/tkpapst/)
+[Demo page](http://hoffer.cx/tkpapst/w6)
 
 ### Actions
 
